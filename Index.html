@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>The game</title>
+	<link rel="stylesheet" type="text/css" href="Estilo/estilo.css">
+	<script type="text/javascript" src="js/JS.js"></script>
+	<script type="text/javascript" src="js/puntaje.js"></script>
+</head>
+	
+<body onload="comienzo(),punt()" >
+
+		<div class="punt" id="rem" style=" display: ">
+			<h3>Puntaje</h3>
+			<input  type="text" name="puntaje" id="coso" readonly="readonly" value="">
+		</div>
+		
+		<embed id="repet"  src="tripaloski.mp3" width="32" height="32"hidden="true" autostart="true" loop></embed>
+
+
+	<header id="los" style=" display: none;">
+		<div class="coso">
+			<a href="inicio.html" class="vuelta">Volver</a>
+		</div>	
+
+		<div class="per">
+				<h1>LE ERRASTE :´C</h1>	<br>
+		</div>
+	</header>
+
+	<main id="win" style="display: none; ">
+		<div class="coso">
+			<a href="inicio.html" class="vuelta">Volver</a>
+		</div>
+		<div class="gan">
+			<h1>Ganaste :D</h1>
+			<br>
+			<h4 class="do"> Tu puntaje es:<input  type="text" name="puntaje" id="wind" class="pantalla" readonly="readonly" value="">	</h4>
+		</div>
+	</main>
+
+	<div class="con" id="con" onMouseMove="sigueme();" >
+	
+	<div class="l1" id="siguelo1" style=" display:;  top: 0px;"></div>	
+	<div class="l2" id="siguelo2" style=" display:;  left: 0px;"></div>
+	
+	<div id="generado1" class="gen" style="top:0px; left:0px;" onclick="lose();"></div>
+
+	
+
+	<div id="generado2" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+	
+	<div id="generado3" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+	
+	<div id="generado4" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+
+	<div id="generado5" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+
+	<div id="generado6" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+
+	<div id="generado7" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+
+	<div id="generado8" class="gen" style="top:0px; left:0px;" onclick="lose();" disabled="disabled"></div>
+
+	<div id="generado" onclick="win();" class="gen" style="top:0px; left:0px;" ><img src="galeria/jam.png"></div>	
+	
+</div>
+
+</BODY>
+</html>

@@ -1,0 +1,230 @@
+body /*body*/
+{
+	background-color: #302F2F;
+	margin: 50px;
+
+}
+.con /*Cuadrado gris en el que se encuentra el cuadrado*/
+{
+	position: relative;
+	background-color: #595959;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	cursor: none;
+	box-shadow: 0px 0px 80px; black;
+
+}
+.l1 /*Barra horizontal que sigue al cursor*/
+{
+
+	position: relative;
+	width: 100%;
+	height: 5px;
+	background-color:#911A00;
+	
+}
+.l2 /*Barra vertical que sigue al cursor*/
+{
+
+	position: relative;
+	width: 5px;
+	height: 100%;
+	background-color: #911A00;
+	margin-top: -0.35%;
+}
+p
+{
+	padding:20px;
+}
+/*
+	*Div para las imagenes 
+*/
+.gen
+{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	cursor: none;
+	background-size: cover;
+}
+
+.puntaje{
+	position: absolute;
+	height: 40px;
+	margin-top:-50px;
+	color:white;
+	font-family: verdana;
+	user-select: none;
+}
+
+.es
+{
+	margin:0px;
+	padding: 0px;
+}
+input
+{	width: 30px;
+	user-select: none;
+}
+.puntaje2{
+	position: absolute;
+	height: 40px;
+	color:white;
+	font-family: verdana;
+	user-select: none;
+	}
+
+#generado{
+	background: url("../galeria/jam.png")no-repeat;
+}
+
+#generado1
+{
+	background: url("../galeria/buzz.png")no-repeat center;
+}
+
+#generado2
+{
+	background: url("../galeria/jerri.png")no-repeat center;
+}
+#generado3
+{
+	background: url("../galeria/mechaperon.png")no-repeat center;
+}
+#generado4
+{
+	background: url("../galeria/tripa.png")no-repeat center;
+}
+#generado5
+{
+	background: url("../galeria/okxd.png")no-repeat center;
+}
+#generado6
+{
+	background: url("../galeria/perun.png")no-repeat center;
+}
+#generado7
+{
+	background: url("../galeria/dross.png")no-repeat center;
+}
+#generado8
+{
+	background: url("../galeria/vieja.png")no-repeat center;
+}
+
+
+#win
+{
+	background: url("../galeria/gif0.gif") center no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: white;
+	z-index: 2;
+	transition: width 2s , height 2s , transform 2s; 
+}
+
+.vuelta
+{
+	font-size: 40px;
+	font-family: arial;
+	text-decoration: none;
+	margin-bottom: -1000px;
+	margin-left: 2%;
+	background-color: white;
+	border-style:solid; 
+	border-color: grey;
+	border-radius: 20px;
+	padding: 5px; 
+
+}
+
+.vic
+{
+	position: relative;
+	width: 500px;
+	height: 200px;
+	margin-left: 28%;
+	margin-right: 28%;
+	margin-top: 46%;
+}
+.coso
+{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#los
+{
+	background: url("../galeria/5555.gif") center no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: white;
+	z-index: 2;
+	transition: width 2s , height 2s , transform 2s; 
+}
+
+.per
+{
+	text-align: center;
+	font-size: 50px;
+	color: red;
+	font-family: arial;
+	margin-top: 30%; 
+}
+.gan
+{
+	text-align: center;
+	font-size: 50px;
+	color: yellow;
+	font-family: arial;
+	margin-top: 25%;
+	margin-bottom: 0%; 
+}
+.punt
+{
+	margin-top: -25px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 3;
+	width: 150px;
+}
+h3
+{
+	float: left;
+	margin: 0px;
+	color: white;
+	font-family: arial;
+}
+#coso,#wind
+{
+	float: right;
+	width: 100px;
+	margin-right: -20px;
+	user-select: none;
+
+
+}
+.pantalla
+{
+	position: relative;
+	width: 100px;
+	height: 50px;
+	font-size:20px; 
+	margin-top: -2%; 
+	margin-left: -20%;
+}
+.do
+{
+	color: #FF00F0;
+	font-size:30px; 
+	width: 380px;
+	height: 50px;
+	position: relative;
+	margin-left: 35%;
+	margin-top: -8%;
+}

@@ -1,0 +1,183 @@
+body /*body*/
+{
+	background-color: #302F2F;
+}
+main
+{
+	width: 1500px;
+	height: 780px;
+	background-color: #b3b3b3;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 8px 8px 8px black;
+	border: 2px solid black; 
+}
+footer
+{
+	margin-top: 80px;
+	width: 1500px;
+	height: 150px;
+	background-color: #A4A4A4;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 8px 8px 8px black;
+	border: 2px solid black; 
+	position: relative;
+}
+aside
+{	
+	float: right;
+	position: relative;
+	width: 50%;
+	height: 80%;
+	margin-left: -500px;
+	margin-bottom:500px;
+}
+section
+{
+	width: 100%;
+	height: 30%;
+}
+img
+{
+	width: 400px;
+	height: 230px;
+	margin: 5px;
+	border-radius: 40px;
+}
+h1
+{
+	padding-top: 5px;
+	font-size: 50px;
+	font-family:arial black;
+	color: #FEDADA;
+	text-shadow: 0px 0px 15px #0000b3;
+	text-align:center;
+}
+p,h4
+{
+		color: black;
+	/*text-shadow: 0px 0px 15px #0000b3;*/
+	font-family: cursive ;
+	margin-left:-180px;
+	margin-top:-5px;
+}
+.om
+{
+	position: relative;
+	margin-top: 25px;
+	font-size: 20px; 
+	text-align:center;
+	margin-bottom:10px;
+	margin-left:-100px;
+}
+h2
+{
+	color: #FEDADA;
+	/*text-shadow: 0px 0px 15px #0000b3;*/	
+	font-family: cursive ;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-left: 635px;
+	
+	
+}
+.play
+{	
+	position: static;
+	width: 110px;
+	height: 230px;
+	margin-left: 33.8%; 
+	margin-top: -20px;
+}
+.gif1
+{
+	margin-left: 80px;
+	width: 410px;
+	height: 600px;
+	position: relative;
+	top:-130px;
+	float: left;
+}
+
+.text1
+{
+	margin-right: 50px;
+	font-size: 19px;
+	float: left;
+	margin-left: 180px;
+	/*margin-top:-120px;*/
+}
+.lin
+{
+	color: #FEDADA;
+	text-shadow: 0px 0px 15px #3399ff;
+	text-decoration: none;
+	color:black;
+}
+
+.we
+{
+	margin-top: 80px; 
+	position: relative;	
+	margin-top: 20px; 
+	height: : 80px;
+	width: : 20px;
+	text-align: center;
+	
+}
+.dif
+{
+	text-decoration: none;
+	text-align: center;	
+	float: left;
+	margin-left: 50px;
+}
+.dif2
+{
+	text-decoration: none;
+	text-align: center;
+	float: right;
+	margin-right: 67px;
+}
+select
+{
+	background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+}
+content{
+	display: none
+}
+.po
+{
+	position: relative;
+	width: 1000px;
+	color: black;
+	text-shadow: 2px 2px 2px;
+	font-family: cursive ;
+	padding: 25px;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-top: 5px;
+	text-align: center;
+}
+.demo
+{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	margin-top: -60px;
+	margin-right: 900px;
+	float: right;
+}
+#img
+{
+	width: 300px;
+	height: 220px;
+	margin-left: 405px;
+}
